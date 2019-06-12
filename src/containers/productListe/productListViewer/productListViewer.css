@@ -1,0 +1,9 @@
+.ProductListViewer{
+    background-color:#f2f5f8;
+    height:auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 10px
+}

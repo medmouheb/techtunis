@@ -1,0 +1,47 @@
+.CategoriesNav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    z-index: 3
+}
+.btnCategories{
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 140%;
+    width: 100%;
+}
+.btnCategories:hover{
+    background-color: gray;
+
+}
+.CategoriesNavColumn{
+    width: 100%
+}
+
+.CategoriesLists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 0px;
+    position: absolute;
+    background-color: brown;
+    height: 500px;
+    width: 100%;
+}
+
+.CategoriesColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+}

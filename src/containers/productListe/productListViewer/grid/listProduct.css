@@ -1,0 +1,7 @@
+.cardBody{
+    display: flex;
+    align-items: baseline
+}
+.cardBody img{
+    width:200px
+}

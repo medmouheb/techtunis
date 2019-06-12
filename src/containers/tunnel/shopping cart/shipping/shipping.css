@@ -1,0 +1,7 @@
+.shippingCards{
+    display: flex;
+}
+.shippingCard{
+    display: flex;
+    align-items: baseline ;
+}

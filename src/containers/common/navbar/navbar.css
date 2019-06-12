@@ -1,0 +1,29 @@
+.navbarButtons{
+    position:absolute;
+    right:0;
+    margin-right:30px;
+}
+.navbarPopover{
+    z-index: 6;
+    background-color: gray;
+    border-radius: 25px;
+}
+.signUpButton{
+    margin: 10px;
+}
+.ShoppingCartIcon{
+    color: red;
+    font-size:40px;
+    position:relative ;
+    margin:15px;
+}
+.ShoppingCarBadge{
+    font-size:15px;
+    position:absolute;
+    left:0 ;
+}
+.identificationIcon{
+    color:green;
+    font-size:40px;
+    margin:12px;
+}

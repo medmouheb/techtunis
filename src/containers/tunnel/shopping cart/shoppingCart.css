@@ -1,0 +1,15 @@
+.cart {
+ 
+    box-shadow:0 0 5px #DDD;
+    padding:20px;  
+    
+  }
+.shoppingCarts{
+  display: flex;
+   position: relative;
+}
+.shoppingIcons{
+  position: sticky;
+   top: 0;
+   height: 100% 
+}

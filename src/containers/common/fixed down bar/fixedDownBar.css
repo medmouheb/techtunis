@@ -1,0 +1,11 @@
+.FixedDownBar{
+    background-color: #e6d49d;
+     position: fixed;
+     bottom: 0px;
+     width: 90% ;
+     z-index: 6;
+}
+.FixedDownBarButtons{
+    display: flex;
+    justify-content: space-around
+}

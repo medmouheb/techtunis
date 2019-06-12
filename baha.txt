@@ -1,0 +1,39 @@
+detailLight: minimum data:nom,url,image,description,prix,[{key:value}],[picto],[crossed-out-price],actions[panier,wishlist,comparateur],url-clic-type[modal,redirection]
+	home
+		grid:data,card,all actions 
+		caroussel:data,card,all actions 
+	list
+		grid:data,card,all actions 
+		list:data,list,all actions 
+		caroussel:data,card,all actions 
+	detail
+		caroussel:data,card,all actions
+	tunnel
+		cart
+			list:data,list,cartActions[updateQte,DeleteFromCart,...(exemple garantie)] 
+		shipping
+			list:data,list,shippingActions[updateShipping,updateQte,DeleteFromCart,...(exemple garantie)] if shipping per product
+		confirmation
+			liste:data+(shippingData if shipping per product ),list
+	footer
+		liste-buttom
+			panier
+				list:data,list,cartActions[voir dans la panier]
+			lastVisited
+				list:data,list,cartActions[panier,wishlist,comparateur]
+			wishlist
+				list:data,list,cartActions[panier,comparateur]
+			comparateur
+				list:data,list,cartActions[panier,wishlist]
+detailLight
+	data,
+	view,
+	actions				
+	[
+		{disponibilité:"sur tt la tunisie"},
+		{certificat:"iso-9036"}
+<<<<<<< HEAD
+	] *kkk
+=======
+	]
+>>>>>>> 854b1b72936089e6255f81da592981c9279750a4

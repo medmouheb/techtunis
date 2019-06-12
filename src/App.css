@@ -1,0 +1,38 @@
+
+.productsGrid > img{
+  height: 200px !important;
+}
+.productsGrid{
+  display: flex;
+  flex-wrap: wrap;
+}
+.productsGrid >div{
+  margin: 5%
+}
+
+#zoom img {
+  width: 50% ;
+}
+
+#cartButton{
+  background-image: url("https://image.flaticon.com/icons/svg/138/138256.svg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    font-size: 200%;
+    color: blueviolet
+}
+#checkoutButton{
+  background-image: url("https://image.flaticon.com/icons/svg/639/639365.svg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    font-size: 200%;
+    color: blueviolet
+}

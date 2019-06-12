@@ -1,0 +1,16 @@
+div.scrollmenu {
+    background-color: #333;
+    overflow-x:scroll;
+    display: flex;
+    padding: 5%;
+    overflow:auto
+}
+
+.discountpercent{
+    position: absolute;
+    border-radius: 2px;
+    top: 8px;
+    right: 8px;
+    background: #feefde;
+    color: #f68b1e;
+}
